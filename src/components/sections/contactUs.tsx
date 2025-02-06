@@ -21,7 +21,7 @@ export const ContactUsSection = () => (
             className="object-cover"
           />
         </div>
-        <div className="max-w-sm">
+        <div className="max-w-sm" id="contactUs">
           <h3 className="text-xl mb-4">We want to hear from you!</h3>
           <p className="mb-6">
             Give us your suggestion or question and we will contact you shortly!

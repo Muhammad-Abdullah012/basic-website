@@ -8,9 +8,9 @@ const Footer: React.FC = () => {
     <footer className="bg-gray-800 text-white">
       <div className="container mx-auto py-4 flex justify-between items-center">
         <div className="flex gap-5 items-center">
-          <FaFacebook size={24} />
-          <TiSocialGooglePlus size={24} />
-          <TiSocialLinkedinCircular size={24} />
+          <FaFacebook size={24} cursor={"pointer"} />
+          <TiSocialGooglePlus size={24} cursor={"pointer"} />
+          <TiSocialLinkedinCircular size={24} cursor={"pointer"} />
           <div className="border-l border-gray-400 pl-4">
             <p className="text-white">Home</p>
           </div>
