@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.smallmatek.pt',
+        port: '',
+        pathname: '/**/**',
+        search: '',
+      },
+    ],
+  }
 };
 
 export default nextConfig;
