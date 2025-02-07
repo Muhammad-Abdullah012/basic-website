@@ -50,7 +50,7 @@ export default function Home() {
         />
 
         {/* Content */}
-        <div className="relative z-10">
+        <div className="relative">
           <ContactUsSection />
           <Footer />
         </div>
