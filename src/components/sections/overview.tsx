@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const OverviewSection = () => (
-  <section className="bg-gray-50 relative py-16 flex justify-center">
+  <section className="bg-gray-50 relative py-8 md:py-16 flex justify-center">
     <div className="container max-w-4xl px-4">
-      <p className="leading-relaxed text-3xl text-center">
+      <p className="leading-relaxed text-xl md:text-3xl text-center">
         Smallimatek is an innovation-driven company that offers integrated
         solutions for protection of metal structures against corrosion and
         biofouling failure, combining the supply of cost-effective and
@@ -18,7 +18,7 @@ export const DetailSection = () => (
   <>
     <section className="bg-gray-50 relative py-16 flex justify-center">
       <div className="container max-w-4xl px-4">
-        <p className="leading-relaxed text-xl text-center text-justify">
+        <p className="leading-relaxed text-base md:text-xl text-center text-justify">
           SMT provides a full range of customized products and services in the
           area of transportation and construction industries, among the best
           integrated solutions for protection against corrosion and biofouling:
@@ -30,9 +30,9 @@ export const DetailSection = () => (
         </p>
       </div>
     </section>
-    <section className="bg-gray-50 flex relative justify-center pb-10">
+    <section className="bg-gray-50 flex relative justify-center pb-4 md:pb-10">
       <div className="relative w-full md:w-auto px-4 md:px-0">
-        <div className="relative w-full md:w-[800px] h-[300px]">
+        <div className="relative w-full md:w-[800px] h-[100px] md:h-[300px]">
           <Image
             src="https://www.smallmatek.pt/wp-content/uploads/2015/11/esquema-customized-solutions1.jpg"
             fill

@@ -29,7 +29,7 @@ export const KeyFeatureSection = () => (
 export const KeyFeatureImageSection = () => (
   <section className="bg-gray-50 relative flex justify-center pb-10">
     <div className="relative w-full md:w-auto px-4 md:px-0">
-      <div className="relative w-full md:w-[500px] h-[500px]">
+      <div className="relative w-full md:w-[500px] h-[300px] md:h-[500px]">
         <Image
           src="https://www.smallmatek.pt/wp-content/uploads/2015/08/home-resultados2.jpg"
           fill
