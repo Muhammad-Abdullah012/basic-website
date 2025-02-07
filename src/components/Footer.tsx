@@ -6,7 +6,7 @@ import { TiSocialLinkedinCircular } from "react-icons/ti";
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 text-white">
-      <div className="container mx-auto py-4 flex justify-between items-center">
+      <div className="container mx-auto py-4 px-6 md:px-0 flex flex-col md:flex-row gap-4 md:gap-10 md:justify-between md:items-center">
         <div className="flex gap-5 items-center">
           <FaFacebook size={24} cursor={"pointer"} />
           <TiSocialGooglePlus size={24} cursor={"pointer"} />
@@ -15,8 +15,10 @@ const Footer: React.FC = () => {
             <p className="text-white">Home</p>
           </div>
         </div>
-        <div>
-          <p className="text-white">Theme by Muhammad Abdullah</p>
+        <div className="w-full md:w-fit border-t md:border-0">
+          <p className="text-white text-center pt-3 md:pt-0">
+            Theme by Muhammad Abdullah
+          </p>
         </div>
       </div>
       {/* <p className="text-sm">© 2025 My Website. All rights reserved.</p> */}

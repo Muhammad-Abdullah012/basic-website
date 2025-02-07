@@ -28,14 +28,15 @@ export const KeyFeatureSection = () => (
 
 export const KeyFeatureImageSection = () => (
   <section className="bg-gray-50 relative flex justify-center pb-10">
-    <div>
-      <Image
-        src="https://www.smallmatek.pt/wp-content/uploads/2015/08/home-resultados2.jpg"
-        width={500}
-        height={500}
-        alt="home resultados"
-        className="object-cover"
-      />
+    <div className="relative w-full md:w-auto px-4 md:px-0">
+      <div className="relative w-full md:w-[500px] h-[500px]">
+        <Image
+          src="https://www.smallmatek.pt/wp-content/uploads/2015/08/home-resultados2.jpg"
+          fill
+          alt="Home resultados"
+          className="object-contain rounded-lg"
+        />
+      </div>
     </div>
   </section>
 );

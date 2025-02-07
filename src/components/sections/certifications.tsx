@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 export const CertificationsSection = () => (
-  <section className="bg-gray-50 flex justify-center items-center gap-10 py-16">
-    <div className="flex gap-10">
+  <section className="bg-gray-50 flex flex-col md:flex-row justify-center items-center gap-10 py-16">
+    <div className="flex flex-col md:flex-row gap-10">
       <Image
         src="https://www.smallmatek.pt/wp-content/uploads/2018/04/Seal-of-Excellence-Imag-207x300.png"
         width={150}
@@ -16,7 +16,7 @@ export const CertificationsSection = () => (
         alt="Seal of Excellence 2"
       />
     </div>
-    <div className="flex flex-col gap-10 justify-between w-[30%]">
+    <div className="flex flex-col gap-10 justify-between px-8 md:px-0 md:w-[30%]">
       <p>Supported by</p>
       <Image
         src={

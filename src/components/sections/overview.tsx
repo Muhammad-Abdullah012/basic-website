@@ -30,15 +30,16 @@ export const DetailSection = () => (
         </p>
       </div>
     </section>
-    <section className="bg-gray-50 relative flex justify-center pb-10">
-      <div>
-        <Image
-          src="https://www.smallmatek.pt/wp-content/uploads/2015/11/esquema-customized-solutions1.jpg"
-          width={800}
-          height={800}
-          alt="EIT RawMaterials"
-          className="object-cover"
-        />
+    <section className="bg-gray-50 flex relative justify-center pb-10">
+      <div className="relative w-full md:w-auto px-4 md:px-0">
+        <div className="relative w-full md:w-[800px] h-[300px]">
+          <Image
+            src="https://www.smallmatek.pt/wp-content/uploads/2015/11/esquema-customized-solutions1.jpg"
+            fill
+            alt="Customized Solution"
+            className="object-contain rounded-lg"
+          />
+        </div>
       </div>
     </section>
   </>

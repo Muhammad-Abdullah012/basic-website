@@ -40,7 +40,7 @@ export default function Home() {
 
         <ProductAndServiceSection />
       </div>
-      <div className="relative h-[85vh]">
+      <div className="relative md:min-h-[85vh]">
         {/* Background Image */}
         <Image
           src={iphone}
